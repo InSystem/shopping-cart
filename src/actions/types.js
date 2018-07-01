@@ -1,0 +1,4 @@
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const INCREMENT_QTY = 'INCREMENT_QTY';
+export const DECREMENT_QTY = 'DECREMENT_QTY';
+export const VALIDATE_PROMO = 'VALIDATE_PROMO';

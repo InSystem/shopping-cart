@@ -1,0 +1,114 @@
+.app {
+    max-width: 950px;
+    margin-bottom: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px;
+    text-align: center;
+}
+
+tfoot td  {
+    border-top: 2px solid lightgray;
+    padding: 35px 35px 0;
+    margin: 35px 35px 0;
+}
+
+thead th {
+    border-top: 2px solid lightgray;
+    padding: 25px 0;
+    margin: 25px;
+    text-align: center;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+tbody {
+    border-bottom: 0;
+}
+
+span {
+    padding: 5px;
+}
+.header {
+    display: flex;
+    margin: 25px;
+    justify-content: flex-end;
+}
+
+.cart {
+
+}
+.cart-img {
+    width: 30px;
+    height: 25px;
+}
+
+.cart-label {
+    padding: 5px;
+}
+
+.promo {
+    color: tomato;
+}
+
+.create-order, .use-promo {
+    border-radius: 25px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    padding: 10px 15px;
+    float: right;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.promo-container {
+    display: flex;
+    margin: 10px 0;
+}
+
+.use-promo {
+    margin-left: 20px;
+    background-color: #BDBDBD;
+}
+
+input {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2) inset;
+    float: left;
+}
+
+.label-promo {
+    font-size: 18px;
+}
+
+td.promo-form {
+    padding-left: 0;
+    text-align: left;
+}
+
+.increment,
+.decrement,
+.delete {
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: tomato;
+}
+
