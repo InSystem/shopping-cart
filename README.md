@@ -1,4 +1,4 @@
-# REACT SHOPPING CART!
+# REACT SHOPPING CART
 A simple shopping cart. 
 
 ### Under the hood
